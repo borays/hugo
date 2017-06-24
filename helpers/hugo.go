@@ -66,7 +66,7 @@ func (v HugoVersion) NextPatchLevel(level int) HugoVersion {
 var CurrentHugoVersion = HugoVersion{
 	Number:     0.24,
 	PatchLevel: 1,
-	Suffix:     "",
+	Suffix:     "-DEV",
 }
 
 func hugoVersion(version float32, patchVersion int, suffix string) string {
